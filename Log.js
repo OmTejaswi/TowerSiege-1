@@ -1,9 +1,11 @@
 class block  {
     constructor(x, y) {
    
-     
+     var physics = {
+        density:0.3
+      }
 
-      this.body = Bodies.rectangle(x,y,30,40);
+      this.body = Bodies.rectangle(x,y,30,40,physics);
       World.add(world,this.body);
 
       this.x = x;
