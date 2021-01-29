@@ -86,52 +86,52 @@ function draw() {
     push();
     fill("#67D1EA");
 
-    block1.display();
-    block2.display();
-    block3.display();
-    block4.display();
-    block5.display();
-    block6.display();
+    block1.show();
+    block2.show();
+    block3.show();
+    block4.show();
+    block5.show();
+    block6.show();
     pop();
 
     push()
     fill("#FFBEC4");
-    block7.display();
-    block8.display();
-    block9.display();
-    block10.display();
+    block7.show();
+    block8.show();
+    block9.show();
+    block10.show();
     pop();
 
     push()
     fill("#00E4D0");
-    block11.display();
-    block12.display();
+    block11.show();
+    block12.show();
     pop();
 
     push();
     fill("#807D78");
-    block13.display();
+    block13.show();
     pop();
 
     push();
     fill("#67D1EA");
-    block14.display();
-    block15.display();
-    block16.display();
-    block17.display();
-    block18.display();
+    block14.show();
+    block15.show();
+    block16.show();
+    block17.show();
+    block18.show();
     pop();
 
     push();
     fill("#00E4D0");
-    block19.display();
-    block20.display();
-    block21.display();
+    block19.show();
+    block20.show();
+    block21.show();
     pop();
 
     push();
     fill("#FFBEC4");
-    block22.display();
+    block22.show();
     pop();
 
     imageMode(CENTER);
@@ -146,5 +146,7 @@ function draw() {
     stroke("black");
     textSize(25);
     text("Drag the Hexagon and it toward the blocks",50,50);
+    textSize(15);
+    text("Press SPACE key to get another chance to break the pyramid",700,500);
     pop();
 }
