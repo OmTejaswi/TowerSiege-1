@@ -68,6 +68,8 @@ function setup() {
     block22 = new block(790,235);
     chain1 = new chain(hexagon,{x: hexagon.position.x, y: hexagon.position.y-30});
 
+    
+
 }
 
 function draw() {
@@ -138,4 +140,11 @@ function draw() {
     chain1.display();
 
     drawSprites();
+
+    push();
+    fill("white");
+    stroke("black");
+    textSize(25);
+    text("Drag the Hexagon and it toward the blocks",50,50);
+    pop();
 }
